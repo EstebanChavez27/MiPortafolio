@@ -1,35 +1,19 @@
-Landed by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Portafolio de Diseño Web
 
+¡Hola! Bienvenido a mi portafolio de diseño web. Aquí encontrarás una colección de mis trabajos más recientes y destacados en diseño web, fotografía y música.
 
-A dark, slick, modern, responsive, adjective-drenched design built around an extremely
-dynamic landing page (scroll that mofo!). Inspired by Big Picture, another design
-of mine with a similarish feel/flow, only this time I took it waaaaaay further and
-actually made it multipurpose (versus copping out and making it a one pager like I
-did last time ;) Includes multiple pages, a bunch of pre-styled elements, and all
-its Sass sources.
+## Acerca de mí
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Soy un diseñador web apasionado con un toque artístico único. Mi amor por la música y la fotografía se refleja en cada proyecto que emprendo, aportando una perspectiva creativa y emocional a mi trabajo.
 
-(* = Not included)
+## Habilidades
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+Además de crear sitios web atractivos y funcionales, también tengo habilidades en el uso de herramientas de diseño gráfico y plataformas no code como WordPress.
 
-AJ
-aj@lkn.io | @ajlkn
+## Proyectos
 
+En este portafolio, encontrarás una variedad de proyectos en los que he trabajado, cada uno con su propio conjunto único de desafíos y soluciones.
 
-Credits:
+## Contacto
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Si estás interesado en trabajar conmigo o simplemente quieres decir hola, ¡no dudes en ponerte en contacto!

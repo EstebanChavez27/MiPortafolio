@@ -1,0 +1,353 @@
+/* Namari Landing Page Dynamic Style Index
+
+1. Website Default Styling
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    background: rgb(15,71,99);
+background: linear-gradient(0deg, rgba(15,71,99,1) 0%, rgba(11,43,60,1) 100%);
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(15,71,99);
+}
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(15,71,99);
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #0da5e0;
+    background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.1) 50%,transparent,transparent)
+}
+
+
+
+
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#0da5e0;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:rgb(15,71,99);
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#0da5e0;
+}
+
+/* Border Color */
+
+#banner .section-heading:before, .testimonial.classic footer:before {
+    background: #0da5e0;
+}
+
+.pricing-block-content:hover {
+    border-color:rgb(15,71,99);
+    border
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#0da5e0;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */ 
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#fff;
+}
+
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: rgb(15,71,99);
+    border-color: rgb(15,71,99);
+    border-width: 10px;
+}    
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured .pricing {
+    background-color:#0da5e0;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;    
+}
+
+.section-heading h2:after {
+    background:#0da5e0;
+    content:"";
+    display:block;
+    width:30px;
+    height:5px;
+    margin-top:30px;
+}
+
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#f5f5f5;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:15px;
+    font-weight:normal;
+    color: #ffff;
+}
+
+/* Logo, if you are using Fonts as Logo and not image
+
+#logo h1 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+#logo h2 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+*/
+
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    background: linear-gradient(90deg, rgba(13,165,224,1) 0%, rgba(117,199,231,1) 48%, rgba(24,163,217,1) 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+#banner h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:18px;
+    font-weight:300;
+    color:#0da5e0;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 34px; 
+    font-weight:700;
+    color:#0da5e0;
+}
+
+.section-subtitle {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-weight:300;
+    color:#ffff;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 17px; 
+    font-weight:300;
+}
+
+.testimonial.classic q, .testimonial.classic footer {
+    color:#ffff;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 40px; 
+    font-weight:300;
+    color:#0da5e0;
+}
+
+h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 34px; 
+    font-weight:300;
+    color:#0da5e0;
+}
+
+h3 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 30px; 
+    font-weight:700;
+    color:#0da5e0;
+}
+
+h4 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px; 
+    font-weight:400;
+    color:#0da5e0;
+}
+
+h5 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px; 
+    font-weight:400;
+    color:#0da5e0;
+}
+
+h6 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px; 
+    font-weight:400;
+    color:#0da5e0;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#0da5e0;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#0da5e0;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#0da5e0;
+    color:#0da5e0;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:16px;
+    color:#0da5e0;
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border-color:#0da5e0;
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:#fff;
+    border-color:#0da5e0;
+    background-color: #0da5e0;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#999;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
